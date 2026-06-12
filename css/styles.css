@@ -18,7 +18,35 @@ body {
 :root {
     --color-primario: hsl(163, 18%, 50%);
     --color-claro: hsl(163, 18%, 80%);
-    --color-oscuro:hsl(163, 18%, 20%);
+    --color-oscuro:hsl(163, 18%, 15%);
     --color-texto: hsl(25, 19%, 10%);
     --color-fondo: hsl(44, 11%, 60%);
 }
+
+.header{
+    background-color: var(--color-primario);
+    padding: 1rem;
+    box-shadow:var(--color-oscuro) 0px 4px 6px -1px;
+}
+
+
+
+.header-contenido{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.titulo-principal {
+    font-size: 2.5rem;
+    color: var(--color-claro);
+    margin-bottom: 0.5rem;
+}
+
+.descripcion {
+    font-size: 1.125rem;
+    color: var(--color-oscuro);
+}
+
