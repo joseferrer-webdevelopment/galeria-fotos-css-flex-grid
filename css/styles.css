@@ -50,3 +50,15 @@ body {
     color: var(--color-oscuro);
 }
 
+
+.contenedor {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
